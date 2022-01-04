@@ -11,8 +11,8 @@ def push_daily_code_to_github():
         ['git', 'push', 'https://{}@github.com/Chris-1994/30-day-challenge'.format(token)])
 
 
-#schedule.every(1).days.do(push_daily_code_to_github)
-schedule.every(1).seconds.do(push_daily_code_to_github)
+schedule.every(1).days.do(push_daily_code_to_github)
+
 
 while True:
     schedule.run_pending()
