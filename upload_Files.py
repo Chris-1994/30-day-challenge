@@ -1,7 +1,8 @@
 import subprocess
+import os
 
-token = "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"
-
+token = os.getenv("github_token")
 subprocess.call(['git', 'add', '-A'])
 subprocess.call(['git', 'commit', '-m', '{}'.format("U")])
-subprocess.call(['git', 'push', 'https://{}@github.com/Chris-1994/30-day-challenge'.format(token)])
+subprocess.call(
+    ['git', 'push', 'https://{}@github.com/Chris-1994/30-day-challenge'.format(token)])
