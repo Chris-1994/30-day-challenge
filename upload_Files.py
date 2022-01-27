@@ -1,6 +1,6 @@
 import subprocess
 
-token = "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"
+token = ""
 
 subprocess.call(['git', 'add', '-A'])
 subprocess.call(['git', 'commit', '-m', '{}'.format("U")])
