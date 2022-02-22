@@ -9,3 +9,9 @@ function rev(word) {
 function runPrint() {
   console.log("print");
 }
+
+function booleanToString(b) {
+  return b ? "true" : "false";
+}
+
+booleanToString(false);
