@@ -15,3 +15,9 @@ function booleanToString(b) {
 }
 
 booleanToString(false);
+
+function removeSmallest(numbers) {
+  return numbers.sort().slice(1);
+}
+
+removeSmallest([3, 1, 5, 6, 7, 2]);
