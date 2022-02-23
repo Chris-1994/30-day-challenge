@@ -15,9 +15,17 @@ function booleanToString(b) {
 }
 
 booleanToString(false);
+//
+//function removeSmallest(numbers) {
+//  return numbers.sort().slice(1);
+//}
+//
 
-function removeSmallest(numbers) {
-  return numbers.sort().slice(1);
-}
-
-removeSmallest([3, 1, 5, 6, 7, 2]);
+//function removeSmallest(arr) {
+//  var min = Math.min(...arr);
+//  return arr.filter((e) => e != min);
+//}
+//
+//console.log(removeSmallest([5, 3, 2, 1, 4]));
+//ee = [1, 2, 3, 4, 5];
+//console.log(Math.min(...ee));
