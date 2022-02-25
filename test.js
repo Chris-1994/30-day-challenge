@@ -29,3 +29,10 @@ booleanToString(false);
 //console.log(removeSmallest([5, 3, 2, 1, 4]));
 //ee = [1, 2, 3, 4, 5];
 //console.log(Math.min(...ee));
+
+function removeSmallest(numbers) {
+  const smallets = Math.min.apply(null, numbers);
+  const pos = numbers.indexOf(smallets);
+}
+
+function Star()
